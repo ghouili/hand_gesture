@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/Scripts/python -c \"import mediapipe; print\\(mediapipe.__version__\\)\")",
+      "Bash(.venv/Scripts/python --version)",
+      "Bash(.venv/Scripts/python -c \"import mediapipe.python.solutions.hands as h; print\\('ok'\\)\")",
+      "Bash(.venv/Scripts/python -c \"import mediapipe.tasks; print\\('tasks ok'\\)\")",
+      "Bash(.venv/Scripts/python -c \"from mediapipe.tasks.python.vision import HandLandmarker; print\\('HandLandmarker ok'\\)\")"
+    ]
+  }
+}
